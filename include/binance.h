@@ -123,12 +123,14 @@ namespace binance
 	class Server
 	{
 		const std::string hostname;
+		const std::string fhostname;
 		const bool simulation;
 		std::string sessionId;
 
 	public :
 
 		Server(const char* hostname = "https://api.binance.com", bool simulation = false);
+		Server(const char* fhostname = "https://binance.com", bool simulation = false);
 		
 		const std::string& getHostname() const;
 		bool isSimulator() const;
@@ -145,6 +147,7 @@ namespace binance
 	class Market
 	{
 		const std::string& hostname;
+		const std::string& fhostname;
 		const Server& server;
 
 	public :
@@ -166,6 +169,8 @@ namespace binance
 		binanceError_t get24hrTick(const char *symbol, double& lastPrice,
 		double& askPrice, double& askQty, double& bidPrice, double& bidQty,
 		double& highPrice, double& lowPrice, double& priceChangePercent, double& quoteVolume);
+
+		binanceError_t getFundingRate(Json::Value &json_result, const char *symbol);
 
 		binanceError_t getKlines(Json::Value &json_result, const char *symbol, const char *interval,
 			time_t startTime = 0, time_t endTime = 0, int limit = 500);

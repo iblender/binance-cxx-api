@@ -1,0 +1,91 @@
+ThirdParty/mbedtls/crypto/library/CMakeFiles/mbedcrypto.dir/__/__/library/error.c.o: \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/library/error.c \
+ /usr/include/stdc-predef.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/config.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/check_config.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/posix1_lim.h /usr/include/bits/local_lim.h \
+ /usr/include/linux/limits.h /usr/include/bits/posix2_lim.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/platform.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/platform_time.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/types.h \
+ /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/aes.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/arc4.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/base64.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/bignum.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/blowfish.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/platform_util.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/camellia.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ccm.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/cipher.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/chacha20.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/chachapoly.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/poly1305.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ctr_drbg.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/des.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/dhm.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ecp.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/entropy.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/sha512.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/error.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/gcm.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/hkdf.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/md.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/hmac_drbg.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/md5.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/oid.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/asn1.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/pk.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/rsa.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ecdsa.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/padlock.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/pem.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/pkcs12.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/pkcs5.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ripemd160.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/sha1.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/sha256.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/xtea.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/net_sockets.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/ssl.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/x509_crt.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/x509.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/include/mbedtls/x509_crl.h \
+ /home/ap/Documents/binance-cxx-api/ThirdParty/mbedtls/crypto/include/mbedtls/ecdh.h

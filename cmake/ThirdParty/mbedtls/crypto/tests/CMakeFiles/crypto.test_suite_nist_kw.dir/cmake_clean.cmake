@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/crypto.test_suite_nist_kw.dir/test_suite_nist_kw.c.o"
+  "CMakeFiles/crypto.test_suite_nist_kw.dir/test_suite_nist_kw.c.o.d"
+  "crypto.test_suite_nist_kw"
+  "crypto.test_suite_nist_kw.pdb"
+  "test_suite_nist_kw.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/crypto.test_suite_nist_kw.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
