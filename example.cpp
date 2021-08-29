@@ -3,6 +3,7 @@
 #include <map>
 #include <string>
 #include <vector>
+#include <fstream>
 
 #include "binance.h"
 #include "binance_logger.h"
@@ -59,8 +60,9 @@ int main()
 	
 	Market market(server);
 		
-	BINANCE_ERR_CHECK(market.getFundingRate(result, "BTCUSDT", fundingRate));
+	BINANCE_ERR_CHECK(market.getLastFundingRate(result, "BTCUSDT", fundingRate));
 	cout<<fundingRate<<endl; 	// = cout<<stod(result["lastFundingRate"].asString())<<endl;
+
 
 	return 0;
 }

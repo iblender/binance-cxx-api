@@ -151,6 +151,10 @@ CMakeFiles/example.dir/example.cpp.o: \
  /usr/include/c++/11.1.0/bits/deque.tcc /usr/include/c++/11.1.0/stack \
  /usr/include/c++/11.1.0/bits/stl_stack.h \
  /home/ap/Documents/binance-cxx-api/ThirdParty/jsoncpp/include/json/writer.h \
+ /usr/include/c++/11.1.0/fstream /usr/include/c++/11.1.0/bits/codecvt.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/11.1.0/bits/fstream.tcc \
  /home/ap/Documents/binance-cxx-api/include/binance.h \
  /usr/include/c++/11.1.0/cstring /usr/include/string.h \
  /usr/include/strings.h \

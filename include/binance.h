@@ -167,8 +167,6 @@ namespace binance
 		double& askPrice, double& askQty, double& bidPrice, double& bidQty,
 		double& highPrice, double& lowPrice, double& priceChangePercent, double& quoteVolume);
 
-		binanceError_t getFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate);
-
 		binanceError_t getKlines(Json::Value &json_result, const char *symbol, const char *interval,
 			time_t startTime = 0, time_t endTime = 0, int limit = 500);
 		binanceError_t getExchangeInfo(Json::Value &json_result);
@@ -176,6 +174,10 @@ namespace binance
 		binanceError_t getLotSize(const char *symbol, double& maxQty, double& minQty, double& stepSize);
 		binanceError_t getTickSize(const char *symbol, double& maxQty, double& minQty, double& stepSize);
 		binanceError_t getMinNotional(const char *symbol, double& minNotional);
+
+		// ones ive written
+		binanceError_t getLastFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate);
+
 	};
 
 	// API + Secret keys required

@@ -757,7 +757,7 @@ binanceError_t binance::Market::getKlines(Json::Value &json_result, const char *
 }
 
 
-binanceError_t binance::Market::getFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate)
+binanceError_t binance::Market::getLastFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate)
 {
 	binanceError_t status = binanceSuccess;
 

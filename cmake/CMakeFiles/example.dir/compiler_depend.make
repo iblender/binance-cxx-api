@@ -208,6 +208,11 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
   /usr/include/c++/11.1.0/stack \
   /usr/include/c++/11.1.0/bits/stl_stack.h \
   ../ThirdParty/jsoncpp/include/json/writer.h \
+  /usr/include/c++/11.1.0/fstream \
+  /usr/include/c++/11.1.0/bits/codecvt.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h \
+  /usr/include/c++/11.1.0/bits/fstream.tcc \
   ../include/binance.h \
   /usr/include/c++/11.1.0/cstring \
   /usr/include/string.h \
@@ -268,6 +273,14 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 
 /usr/include/c++/11.1.0/limits:
 
+/usr/include/c++/11.1.0/ratio:
+
+../include/binance_websocket.h:
+
+../include/binance_logger.h:
+
+../ThirdParty/curl/include/curl/urlapi.h:
+
 /usr/include/c++/11.1.0/ext/alloc_traits.h:
 
 /usr/include/c++/11.1.0/bits/range_access.h:
@@ -287,8 +300,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 /usr/include/c++/11.1.0/string:
 
 /usr/include/bits/setjmp.h:
-
-/usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -360,8 +371,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 
 /usr/include/asm/bitsperlong.h:
 
-../ThirdParty/curl/include/curl/urlapi.h:
-
 /usr/include/bits/types.h:
 
 ../ThirdParty/jsoncpp/include/json/forwards.h:
@@ -388,8 +397,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 
 /usr/include/bits/floatn.h:
 
-/usr/include/bits/libc-header-start.h:
-
 /usr/include/c++/11.1.0/backward/binders.h:
 
 /usr/include/bits/floatn-common.h:
@@ -409,6 +416,8 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 /usr/include/c++/11.1.0/bits/locale_classes.tcc:
 
 /usr/include/c++/11.1.0/iostream:
+
+/usr/include/c++/11.1.0/fstream:
 
 /usr/include/c++/11.1.0/bits/stringfwd.h:
 
@@ -435,8 +444,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 /usr/include/bits/sched.h:
 
 /usr/include/bits/types/__FILE.h:
-
-/usr/include/c++/11.1.0/ratio:
 
 /usr/include/gnu/stubs.h:
 
@@ -468,8 +475,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 
 /usr/include/stdc-predef.h:
 
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/bits/timex.h:
 
 /usr/include/c++/11.1.0/initializer_list:
@@ -479,8 +484,6 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 ../ThirdParty/curl/include/curl/easy.h:
 
 /usr/include/bits/errno.h:
-
-../include/binance_logger.h:
 
 /usr/include/bits/long-double.h:
 
@@ -575,6 +578,10 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 /usr/include/c++/11.1.0/bits/stl_pair.h:
 
 /usr/include/bits/struct_mutex.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/11.1.0/bits/fstream.tcc:
 
 /usr/include/c++/11.1.0/streambuf:
 
@@ -722,6 +729,16 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 
 /usr/include/c++/11.1.0/stack:
 
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/11.1.0/bits/codecvt.h:
+
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/basic_file.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++io.h:
+
 /usr/include/strings.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed/limits.h:
@@ -781,5 +798,3 @@ CMakeFiles/example.dir/example.cpp.o: ../example.cpp \
 /usr/include/c++/11.1.0/bits/streambuf_iterator.h:
 
 /usr/include/asm/sockios.h:
-
-../include/binance_websocket.h:
