@@ -55,6 +55,7 @@ int main()
 
 	Json::Value result;
 	double fundingRate;
+	double serverTime;
 
 	Server server;
 	
@@ -62,7 +63,8 @@ int main()
 		
 	BINANCE_ERR_CHECK(market.getLastFundingRate(result, "BTCUSDT", fundingRate));
 	cout<<fundingRate<<endl; 	// = cout<<stod(result["lastFundingRate"].asString())<<endl;
-
+	BINANCE_ERR_CHECK(market.getServerTime(result, serverTime));
+	cout<<serverTime<<endl;
 
 	return 0;
 }

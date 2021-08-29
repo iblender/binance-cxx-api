@@ -177,6 +177,7 @@ namespace binance
 
 		// ones ive written
 		binanceError_t getLastFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate);
+		binanceError_t getServerTime(Json::Value &json_result, double &serverTime);
 
 	};
 
