@@ -123,14 +123,12 @@ namespace binance
 	class Server
 	{
 		const std::string hostname;
-		const std::string fhostname;
 		const bool simulation;
 		std::string sessionId;
 
 	public :
 
 		Server(const char* hostname = "https://api.binance.com", bool simulation = false);
-		Server(const char* fhostname = "https://binance.com", bool simulation = false);
 		
 		const std::string& getHostname() const;
 		bool isSimulator() const;
@@ -147,7 +145,6 @@ namespace binance
 	class Market
 	{
 		const std::string& hostname;
-		const std::string& fhostname;
 		const Server& server;
 
 	public :

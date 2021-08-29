@@ -795,7 +795,5 @@ binanceError_t binance::Market::getFundingRate(Json::Value &json_result, const c
 
 	Logger::write_log("<get_fundingRate> Done.");
 
-	std::cout<<str_result<<std::endl<<std::endl;
-
 	return status;
 }
