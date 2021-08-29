@@ -167,7 +167,7 @@ namespace binance
 		double& askPrice, double& askQty, double& bidPrice, double& bidQty,
 		double& highPrice, double& lowPrice, double& priceChangePercent, double& quoteVolume);
 
-		binanceError_t getFundingRate(Json::Value &json_result, const char *symbol);
+		binanceError_t getFundingRate(Json::Value &json_result, const char *symbol, double &fundingRate);
 
 		binanceError_t getKlines(Json::Value &json_result, const char *symbol, const char *interval,
 			time_t startTime = 0, time_t endTime = 0, int limit = 500);

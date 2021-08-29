@@ -53,33 +53,14 @@ int main()
 	Logger::set_debug_logfp(stderr);
 
 	Json::Value result;
+	double fundingRate;
 
 	Server server;
 	
 	Market market(server);
 		
-	BINANCE_ERR_CHECK(market.getFundingRate(result, "BTCUSDT"));
-	//BINANCE_ERR_CHECK(market.getKlines(result, "POEBTC", "1h", 0, 0, 10));
-	cout<<result["lastFundingRate"].get<string>()<<endl;
- 	
-	 
- 	/*for (Json::Value::ArrayIndex i = 0 ; i < result.size() ; i++)
- 	{
- 		long start_of_candle = result[i][0].asInt64();
- 		klinesCache[start_of_candle]["o"] = atof(result[i][1].asString().c_str());
- 		klinesCache[start_of_candle]["h"] = atof(result[i][2].asString().c_str());
- 		klinesCache[start_of_candle]["l"] = atof(result[i][3].asString().c_str());
- 		klinesCache[start_of_candle]["c"] = atof(result[i][4].asString().c_str());
- 		klinesCache[start_of_candle]["v"] = atof(result[i][5].asString().c_str());
- 	}
-
- 	print_klinesCache();
- 		
- 	// Klines/Candlestick update via websocket
- 	Websocket::init();
-	Websocket::connect_endpoint(ws_klines_onData, "/ws/poebtc@kline_1m");
-	Websocket::enter_event_loop();*/
-	
+	BINANCE_ERR_CHECK(market.getFundingRate(result, "BTCUSDT", fundingRate));
+	cout<<fundingRate<<endl; 	// = cout<<stod(result["lastFundingRate"].asString())<<endl;
 
 	return 0;
 }
