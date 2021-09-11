@@ -35,7 +35,7 @@ sudo apt-get install cmake g++
 ### Building
 
 ```
-git clone --recurse-submodules https://github.com/dmikushin/binance-cxx-api.git
+git clone --recurse-submodules https://github.com/iblender/binance-cxx-api
 cd binance-cxx-api
 mkdir build
 cd build/
